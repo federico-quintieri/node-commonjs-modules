@@ -6,4 +6,6 @@ const funzioneHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
   };
 };
 
-export default funzioneHobbies;
+module.exports = {
+  funzioneHobbies,
+};
