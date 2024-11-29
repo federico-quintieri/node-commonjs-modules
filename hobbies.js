@@ -1,11 +1,9 @@
-const funzione = (firstName, lastName) => {
-  const oggetto = {
-    firstName,
-    lastName,
+const funzioneHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
+  // Restituisco un oggetto contenente un array
+  // Nell'array abbiamo messo i parametri d'ingresso della funzione
+  return {
+    hobbies: [hobbyOne, hobbyTwo, hobbyThree],
   };
-  return oggetto;
 };
 
-MediaSourceHandle.exports = {
-    funzione
-}
+export default funzioneHobbies;
